@@ -1,4 +1,4 @@
-#!/bin/bash -euvx
+#!/bin/bash -ex
 source "$(dirname $0)/conf"
 [ -n "${CONTENT_LENGTH}" ] && dd bs=${CONTENT_LENGTH} > /dev/null
 
